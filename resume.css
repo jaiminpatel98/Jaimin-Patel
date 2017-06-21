@@ -71,3 +71,8 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+img {
+    align-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
