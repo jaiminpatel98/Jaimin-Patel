@@ -34,6 +34,7 @@ body {
     background-color: #26619C;
     color: white;
 }
+/*
 .dropbtn {
     float: left;
     color: #262626;
@@ -64,14 +65,52 @@ body {
     color: white;
 }
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+    display: block;
+    position: inherit;
 }
 .dropdown:hover .dropbtn {
     background-color: #26619C;
     color: white;
 }
+*/
+.dropbtn {
+    display: inline-block;
+    color: #262626;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #26619C;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 .wrx {
-    text-align: left;
+    text-align: center;
 }
 .wrx span {
     color: #26619C;
@@ -100,8 +139,9 @@ body {
     
 }
 .ottawa {
-    text-align: left;
+    text-align: center;
     color: #ff0000;
+    padding-top: 2%;
 }
 .ottawa-gallery img {
     float: left;
@@ -112,6 +152,9 @@ body {
     opacity: 1.0;
 }
 .grc span{
-    text-align: left;
     color: #0736F8;
+}
+.grc {
+    text-align: center;
+    padding-top: 2%;
 }
