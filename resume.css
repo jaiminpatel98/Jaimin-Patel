@@ -1,17 +1,15 @@
 body {
     font-family: 'Roboto Mono', monospace;
-}
-.menu-bar {
     margin-left: 5%;
     margin-right: 5%;
 }
-.menu-bar h1 {
+.header h1 {
     display: inline-block;
     color: #262626;
     width: 15%;
     padding: 16px; 
 }
-.menu-bar h1 span {
+.header h1 span {
     color: #26619C;
 }
 .menu-bar ul {
@@ -20,17 +18,56 @@ body {
     padding: 0;
     overflow: hidden;
 }
-.menu-bar li {
+.first a {
     float: left;
-}
-.menu-bar li a {
-    display: block;
+    display: inline-block;
     color: #262626;
     text-align: center;
-    padding: 16px;
+    font-size: 16px;
+    padding: 12px 16px;
     text-decoration: none;
 }
-.menu-bar li a:hover {
+.menu-bar a {
+    text-decoration: none;
+}
+.menu-bar a:hover {
     background-color: #26619C;
     color: white;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: #262626;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #26619C;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
