@@ -39,7 +39,11 @@ body {
     border: none;
     cursor: pointer;
 }
-
+#toTop img{
+    right: 0;
+    position: fixed;
+    width: 60px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
