@@ -4,14 +4,11 @@ body {
     margin-right: 5%;
 }
 .header h1 {
-    display: inline-block;
+    float: left;
     color: #262626;
 }
 .header h1 span {
     color: #26619C;
-}
-.menu-bar {   
-    width: 100%;        
 }
 .first a {
     float: left;
@@ -37,11 +34,6 @@ body {
     border: none;
     cursor: pointer;
 }
-#toTop img{
-    right: 0;
-    position: fixed;
-    width: 4.5%;
-}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -63,12 +55,29 @@ body {
     display: block;
     
 }
-
 .dropdown-content a:hover {
     background-color: #26619C;
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+#toTop img{
+    right: 0;
+    position: fixed;
+    width: 4.5%;
+    bottom: 0;
+}
+.media {
+    padding-top: 2%;
+    width: 79.5%;
+    display: inline-block;
+    align-items: center;
+}
+.icon img{
+    float: right;
+    width: 5%;
+    height: 5%;
+    padding-right: 1%;
 }
 .wrx {
     text-align: center;
