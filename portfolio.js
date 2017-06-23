@@ -26,7 +26,7 @@ $(document).ready(function(){
 (function($) {          
     $(document).ready(function(){                    
         $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 50) {
+            if ($(this).scrollTop() > 100) {
                 $('#menu').fadeIn(500);
             } else {
                 $('#menu').fadeOut(500);
