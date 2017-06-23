@@ -33,7 +33,7 @@ body {
     color: white;
 }
 .dropbtn-nav {
-    display: inline-block;
+    display: none;
     cursor: pointer;
     position: fixed;
     background: none;
