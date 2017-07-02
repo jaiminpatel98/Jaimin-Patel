@@ -79,8 +79,8 @@ body {
     display: inline-block;
     color: #262626;
     text-align: center;
-    font-size: 16px;
-    padding: 12px;
+    font-size: 1em;
+    padding: 0.75em;
     text-decoration: none;
 }
 .menu-bar a {
@@ -129,7 +129,7 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-#toTop img{
+.toTop img{
     right: 0;
     position: fixed;
     width: 4.5%;
