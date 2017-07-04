@@ -28,8 +28,24 @@ body {
     position: relative;
     display: inline-block;
 }
-.dropdown-nav a:hover {
+.dropdown-content-nav a.top-nav:hover {
+    background-color: #455A64;
+    color: white;
+}
+.dropdown-content-nav a.wrx-nav:hover {
     background-color: #26619C;
+    color: white;
+}
+.dropdown-content-nav a.ottawa-nav:hover {
+    background-color: #ff0000;
+    color: white;
+}
+.dropdown-content-nav a.grc-nav:hover {
+    background-color: #0736F8;
+    color: white;
+}
+.dropdown-content-nav a.portraits-nav:hover {
+    background-color: #4CAF50;
     color: white;
 }
 .dropbtn-nav {
@@ -89,8 +105,20 @@ body {
 .nav {
     width: 27%;
 }
-.nav a:hover {
+.dropdown-content a.wrx-nav:hover {
     background-color: #26619C;
+    color: white;
+}
+.dropdown-content a.ottawa-nav:hover {
+    background-color: #ff0000;
+    color: white;
+}
+.dropdown-content a.grc-nav:hover {
+    background-color: #0736F8;
+    color: white;
+}
+.dropdown-content a.portraits-nav:hover {
+    background-color: #4CAF50;
     color: white;
 }
 .dropbtn {
