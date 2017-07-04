@@ -245,3 +245,6 @@ body {
     opacity: 1.0;
     z-index: 111;
 }
+.end-line {
+  padding-top: 1em;
+}
