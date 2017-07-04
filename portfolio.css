@@ -121,7 +121,7 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    
+
 }
 .dropdown-content a:hover {
     background-color: #26619C;
@@ -147,9 +147,6 @@ body {
     height: 5%;
     padding-right: 0.5%;
 }
-.container {
-    
-}
 .wrx {
     text-align: center;
     padding-top: 2%;
@@ -157,12 +154,9 @@ body {
 .wrx span {
     color: #26619C;
 }
-.auto-gallery {
-    
-}
 .auto-gallery img {
     float: left;
-    width: 100%;    
+    width: 100%;
     opacity: 0.6;
     z-index: 111;
 }
@@ -182,7 +176,7 @@ body {
     z-index: 111;
 }
 .ottawa-container {
-    
+
 }
 .ottawa {
     text-align: center;
@@ -205,4 +199,21 @@ body {
 .grc {
     text-align: center;
     padding-top: 2%;
+}
+.port {
+  text-align: center;
+  padding-top: 2%;
+  clear: left;
+  color: #4CAF50;
+}
+.portrait-gallery img {
+    float: left;
+    opacity: 0.6;
+    width: 50%;
+    z-index: 111;
+}
+.portrait-gallery img:hover {
+    float: left;
+    opacity: 1.0;
+    z-index: 111;
 }
