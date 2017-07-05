@@ -28,16 +28,12 @@ body {
     position: relative;
     display: inline-block;
 }
-.dropdown-content-nav a.top-nav:hover {
-    background-color: #455A64;
-    color: white;
-}
 .dropdown-content-nav a.wrx-nav:hover {
     background-color: #26619C;
     color: white;
 }
 .dropdown-content-nav a.ottawa-nav:hover {
-    background-color: #D32F2F;
+    background-color: #F44336;
     color: white;
 }
 .dropdown-content-nav a.grc-nav:hover {
@@ -84,7 +80,7 @@ body {
 .header h1 {
     float: left;
     display: inline-block;
-    color: #262626;
+    color: #424242;
 }
 .header h1 span {
     color: #26619C;
@@ -99,6 +95,10 @@ body {
     padding: 0.75em;
     text-decoration: none;
 }
+.first a:hover {
+  background-color: #F57C00;
+  color: white;
+}
 .menu-bar a {
     text-decoration: none;
 }
@@ -110,7 +110,7 @@ body {
     color: white;
 }
 .dropdown-content a.ottawa-nav:hover {
-    background-color: #D32F2F;
+    background-color: #F44336;
     color: white;
 }
 .dropdown-content a.grc-nav:hover {
@@ -151,8 +151,9 @@ body {
     display: block;
 
 }
-.dropdown-content a:hover {
-    background-color: #26619C;
+.dropbtn:hover {
+    background-color: #F57C00;
+    color: white;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -178,8 +179,6 @@ body {
 .wrx {
     text-align: center;
     padding-top: 2%;
-}
-.wrx span {
     color: #26619C;
 }
 .auto-gallery img {
@@ -203,12 +202,9 @@ body {
     opacity: 1.0;
     z-index: 111;
 }
-.ottawa-container {
-
-}
 .ottawa {
     text-align: center;
-    color: #D32F2F;
+    color: #F44336;
     padding-top: 2%;
 }
 .ottawa-gallery img {
@@ -221,12 +217,10 @@ body {
     opacity: 1.0;
     z-index: 111;
 }
-.grc span{
-    color: #448AFF;
-}
 .grc {
     text-align: center;
     padding-top: 2%;
+    color: #448AFF;
 }
 .port {
   text-align: center;
