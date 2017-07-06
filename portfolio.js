@@ -1,4 +1,4 @@
-var main = function() {
+var smoothScroll = function() {
   $('a').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
@@ -11,9 +11,9 @@ var main = function() {
     }
   });
 }
-$(document).ready(main);
+$(document).ready(smoothScroll);
 
-var main2 = function() {
+var menuFade = function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#menu').fadeIn(500);
@@ -22,7 +22,7 @@ var main2 = function() {
     }
   })
 }
-$(document).ready(main2);
+$(document).ready(menuFade);
 
 function myFunction(x) {
   x.classList.toggle("change");
