@@ -44,6 +44,10 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+.dropdown-content-nav a.cnc-nav:hover {
+  background-color: #6D4C41;
+  color: white;
+}
 .dropbtn-nav {
   display: none;
   cursor: pointer;
@@ -119,6 +123,10 @@ body {
 }
 .dropdown-content a.portraits-nav:hover {
   background-color: #4CAF50;
+  color: white;
+}
+.dropdown-content a.cnc-nav:hover {
+  background-color: #6D4C41;
   color: white;
 }
 .dropbtn {
@@ -235,6 +243,33 @@ body {
   z-index: 111;
 }
 .portrait-gallery img:hover {
+  float: left;
+  opacity: 1.0;
+  z-index: 111;
+}
+.cnc {
+  clear: left;
+  text-align: center;
+  color: #6D4C41;
+  padding-top: 2%;
+}
+.cnc-gallery img {
+  float: left;
+  width: 100%;
+  opacity: 0.6;
+  z-index: 111;
+}
+.cnc-gallery img:hover {
+  opacity: 1.0;
+  z-index: 111;
+}
+.cnc-gallery-small img {
+  float: left;
+  opacity: 0.6;
+  width: 50%;
+  z-index: 111;
+}
+.cnc-gallery-small img:hover {
   float: left;
   opacity: 1.0;
   z-index: 111;

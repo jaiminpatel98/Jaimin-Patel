@@ -61,6 +61,10 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+.dropdown-content a.cnc-nav:hover {
+  background-color: #6D4C41;
+  color: white;
+}
 .dropdown-content {
   position: absolute;
   display: none;
