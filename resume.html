@@ -22,37 +22,128 @@
           <a href="portfolio.html#wrx" class="wrx-nav">2016 WRX</a>
           <a href="portfolio.html#ottawa" class="ottawa-nav">Ottawa</a>
           <a href="portfolio.html#grc" class="grc-nav">GRC 2017</a>
-          <a href="portfolio.htmlz#portraits" class="portraits-nav">Portraits</a>
+          <a href="portfolio.html#portraits" class="portraits-nav">Portraits</a>
+          <a href="portfolio.html#cnc" class="cnc-nav">Cars and Coffee</a>
         </div>
       </div>
     </div>
   </div>
-  <h1 style="text-align: center;">Currently under construction.</h1>
-  <!-- <div class="resume">
+
+  <div class="resume">
+
     <div class="education">
-      <h3 >Education</h3>
-      <hr>
-      <div class="university">
-        <h4 style="float: left;">Bachelor in Applied Science, Software Engineering</h4>
-        <h4 style="float: right;">September 2016 - May 2020</h4>
-        <ul style="clear: left;">
-          <li>University of Ottawa, Ottawa, Ontario</li>
-          <li>Going into second year</li>
-        </ul>
+      <button class="accordion">Education</button>
+      <div class="panel">
+        <div class="university">
+          <h4 style="float: left;">Bachelor in Applied Science, Software Engineering</h4>
+          <h4 style="float: right;">September 2016 - May 2020</h4>
+          <ul style="clear: left;">
+            <li>University of Ottawa, Ottawa, Ontario</li>
+            <li>Going into second year</li>
+          </ul>
+        </div>
+        <div class="high-school">
+          <h4 style="float: left;">Ontario Secondary School Diploma</h4>
+          <h4 style="float: right;">September 2012 - June 2016</h4>
+          <ul style="clear: left;">
+            <li>Parkdale Collegiate Toronto, Ontario</li>
+            <li>International Baccalaurete from September 2012 to June 2015</li>
+            <li>Honours Award (80%+)</li>
+            <li>Grade 12 Physics Award</li>
+            <li>Intelliware Scholarship for Innovation and Leadership($1000)</li>
+          </ul>
+        </div>
       </div>
-      <div class="high-school">
-        <h4 style="float: left;">Ontario Secondary School Diploma</h4>
-        <h4 style="float: right;">September 2012 - June 2016</h4>
-        <ul style="clear: left;">
-          <li>Parkdale Collegiate Toronto, Ontario</li>
-          <li>International Baccalaurete from September 2012 to June 2015</li>
-          <li>Honours Award (80%+)</li>
-          <li>Grade 12 Physics Award</li>
-          <li>Intelliware Scholarship for Innovation and Leadership($1000)</li>
-        </ul>
+      <hr class="line">
+    </div>
+
+    <div class="experience">
+      <button class="accordion" id="acc-exp">Work Experience</button>
+      <div class="panel">
+        <div class="coop">
+          <h4 style="float: left;">Web Developer</h4>
+          <h4 style="float: right;">May 2017 - August 2017</h4>
+          <h5 style="clear: right;">University of Ottawa, Faculty of Medicine</h5>
+          <h5>Ottawa, Ontario</h5>
+          <ul>
+            <li>Designed, developed, and tested sites using web content managment system (WCMS) Drupal</li>
+            <li>Migrated client sites to Drupal sites</li>
+            <li>Met with clients to discuss user experience improvements and site redesigns</li>
+          </ul>
+        </div>
+        <div class="ump">
+          <h4 style="float: left;">Umpire</h4>
+          <h4 style="float: right;">May 2013 - August 2016</h4>
+          <h5 style="clear: right;">Baseball Canada</h5>
+          <h5>Toronto, Ontario</h5>
+          <ul>
+            <li>Developed integrity while under scrutiny from coaches</li>
+            <li>Learned to act professionally while addressing players and coaches</li>
+          </ul>
+        </div>
+        <div class="tims">
+          <h4 style="float: left;">Team Member</h4>
+          <h4 style="float: right;">September 2015 - December 2015</h4>
+          <h5 style="clear: left;">Tim Horton's</h5>
+          <h5>Toronto, Ontario</h5>
+          <ul>
+            <li>Demonstrated keen teamwork skills while working as a Tim Horton’s Team Member</li>
+            <li>Developed fast and efficient work habits while working during consistently busy mornings</li>
+            <li>Learned to accommodate customers while taking their order or receiving a complaint</li>
+          </ul>
+        </div>
       </div>
-    </div> -->
+      <hr class="line" id="line-2">
+    </div>
+
+    <div class="volunteer">
+      <button class="accordion" id="acc-vol">Volunteer Experience</button>
+      <div class="panel">
+        <div class="coach">
+          <h4>Assistant Baseball Coach</h4>
+          <h5>Annette Baseball Association</h5>
+          <h5>Toronto, Ontario</h5>
+          <ul>
+            <li>Organized and ran baseball drills for children ages 10 to 12</li>
+            <li>Committed to every practice and game</li>
+            <li>Taught baseball concepts and techniques</li>
+          </ul>
+        </div>
+        <div class="leader">
+          <h4>Senior Leader</h4>
+          <h5>Parkdale Collegiate Institute</h5>
+          <ul>
+            <li>Planned engaging activities for grade 9s</li>
+            <li>Created a comfortable environment for newly acquainted teenagers</li>
+            <li>Included all the students in each activity</li>
+          </ul>
+        </div>
+        <div class="baps">
+          <h4>BAPS Charities Walkathon</h4>
+          <ul>
+            <li>Raised money for BAPS Charities and Sick Kids Hospital for nearly 14 consecutive years</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="line" id="line-3">
+    </div>
+
   </div>
 
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      }
+    }
+  </script>
 </body>
 </html>

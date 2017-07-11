@@ -100,7 +100,7 @@ body {
   text-decoration: none;
 }
 .first a:hover {
-  background-color: #F57C00;
+  background-color: #FF9800;
   color: white;
 }
 .menu-bar a {
@@ -160,7 +160,7 @@ body {
 
 }
 .dropbtn:hover {
-  background-color: #F57C00;
+  background-color: #FF9800;
   color: white;
 }
 .dropdown:hover .dropdown-content {
