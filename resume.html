@@ -4,6 +4,8 @@
   <link rel="stylesheet" href="resume.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
   <link rel="icon" href="images/title-3.png" type="image/jfif">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
   <title>Jaimin's Site</title>
 </head>
 <body>
@@ -28,8 +30,8 @@
       </div>
     </div>
   </div>
-  <h2 style="text-align: center;">Currently under construction...</h2>
-  <!-- <div class="resume">
+  <!-- <h2 style="text-align: center;">Currently under construction...</h2> -->
+  <div class="resume">
 
     <div class="education">
       <button class="accordion">Education</button>
@@ -128,22 +130,7 @@
       <hr class="line" id="line-3">
     </div>
 
-  </div> -->
-
-  <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    for (i = 0; i < acc.length; i++) {
-      acc[i].onclick = function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight){
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      }
-    }
-  </script>
+  </div>
+  <script src="resume.js"></script>
 </body>
 </html>
