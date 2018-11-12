@@ -1,113 +1,172 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="gallery.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
-    <link rel="icon" href="images/title-3.png" type="image/jfif">
-    <title>Gallery</title>
-  </head>
-  <body id='top'>
-        <div class="dropdown-nav" >
-                <button id="menu" class="dropbtn-nav" onclick="myFunction(this); myFunction2();">
-                  <div class="bar1"></div>
-                  <div class="bar2"></div>
-                  <div class="bar3"></div>
-                  <div class="dropdown-content-nav" id="myDropdown">
-                    <a href="#wrx" class="wrx-nav">2016 WRX</a>
-                    <a href="#grc" class="grc-nav">GRC 2017</a>
-                    <a href="#film" class="film-nav">Film</a>
-                    <a href="#cnc" class="cnc-nav">Cars and Coffee</a>
-                  </div>
-                </button>
-              </div>
-              <div class="body">
-                <div class="menu-bar">
-                  <div class="header">
-                    <a id="name" href="index.html"><h1>Jaimin <span>Patel</span></h1></a>
-                  </div>
-                  <div class="media">
-                    <a class="icon" href="https://www.flickr.com/photos/149982555@N03/">
-                      <img src="images/media/flickr.png">
-                    </a>
-                    <a class="icon" href="https://www.linkedin.com/in/jaimin-patel-b46bb85a/">
-                      <img src="images/media/linkedin.png">
-                    </a>
-                  </div>
-                  <br>
-                  <br>
-                  <div class="nav">
-                    <div class="first">
-                      <a href="resume.html">Résumé</a>
-                    </div>
-                    <div class="dropdown">
-                      <a class="dropbtn" href="gallery.html">Gallery</a>
-                      <div class="dropdown-content">
-                        <a href="#wrx" class="wrx-nav">2016 WRX</a>
-                        <a href="#grc" class="grc-nav">GRC 2017</a>
-                        <a href="#film" class="film-nav">Film</a>
-                        <a href="#cnc" class="cnc-nav">Cars and Coffee</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-    <a class="toTop" href="#top">
-        <img src="images/up.png">
-    </a>
-    <h1 class="wrx" id="wrx">2016 WRX</h1>
-    <div class="grid">
-        <div class="item" style="background-image: url(images/wrx/wrx6.jpg)"></div>
-            
-        <div class="item" style="background-image: url(images/wrx/wrx3.jpg)"></div>
-            
-        <div class="item" style="background-image: url(images/wrx/wrx7.jpg)"></div>
-            
-        <div class="item" style="background-image: url(images/wrx/wrx1.jpg)"></div>
-            
-        <div class="item" style="background-image: url(images/wrx/wrx5.jpg)"></div>
-    </div>
-    <h1 class="grc" id="grc">Global Rallycross Ottawa Round 5 &amp; 6</h1>
-    <div class="grid">
-        <div class="item" style="background-image: url(images/GRC/grc3.jpg)"></div>
-        
-        <div class="item" style="background-image: url(images/GRC/grc13.jpg)"></div>
-        
-        <div class="item" style="background-image: url(images/GRC/grc7.jpg)"></div>
-        
-        <div class="item" style="background-image: url(images/GRC/grc17.jpg)"></div>
-        
-        <div class="item" style="background-image: url(images/GRC/grc12.jpg)"></div>
-    </div>
-    <h1 class="film" id="film">
-            Film
-          </h1>
-    <div class="grid">
-            <div class="item" style="background-image: url(images/film/film3.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/film/film1.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/film/film6.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/film/film4.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/film/film5.jpg)"></div>
-    </div>
-    <h1 class="cnc" id="cnc">
-            Cars and Coffee
-          </h1>
-    <div class="grid">
-            <div class="item" style="background-image: url(images/cnc/cnc8.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/cnc/cnc23.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/cnc/cnc29.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/cnc/cnc11.jpg)"></div>
-            
-            <div class="item" style="background-image: url(images/cnc/cnc5.jpg)"></div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="gallery.js"></script>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<link href="gallery.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
+	<link href="images/title-3.png" rel="icon" type="image/jfif">
+
+	<title>Gallery</title>
+</head>
+
+<body id='top'>
+	<div class="dropdown-nav">
+		<button class="dropbtn-nav" id="menu" onclick="myFunction(this); myFunction2();">
+		<div class="bar1">
+		</div>
+
+
+		<div class="bar2">
+		</div>
+
+
+		<div class="bar3">
+		</div>
+
+
+		<div class="dropdown-content-nav" id="myDropdown">
+			<a class="wrx-nav" href="#wrx">2016 WRX</a> <a class="grc-nav" href="#grc">GRC 2017</a> <a class="film-nav" href="#film">Film</a> <a class="cnc-nav" href="#cnc">Cars and Coffee</a>
+		</div></button>
+	</div>
+
+
+	<div class="body">
+		<div class="menu-bar">
+			<div class="header">
+				<a href="index.html" id="name">
+				<h1>Jaimin <span>Patel</span></h1></a>
+			</div>
+
+
+			<div class="media">
+				<a class="icon" href="https://www.flickr.com/photos/149982555@N03/"><img src="images/media/flickr.png"></a> <a class="icon" href="https://www.linkedin.com/in/jaimin-patel-b46bb85a/"><img src="images/media/linkedin.png"></a>
+			</div>
+			<br>
+			<br>
+
+
+			<div class="nav">
+				<div class="first">
+					<a href="resume.html">Résumé</a>
+				</div>
+
+
+				<div class="dropdown">
+					<a class="dropbtn" href="gallery.html">Gallery</a>
+
+					<div class="dropdown-content">
+						<a class="wrx-nav" href="#wrx">2016 WRX</a> <a class="grc-nav" href="#grc">GRC 2017</a> <a class="film-nav" href="#film">Film</a> <a class="cnc-nav" href="#cnc">Cars and Coffee</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="toTop" href="#top"><img src="images/up.png"></a>
+
+		<h1 class="wrx" id="wrx">2016 WRX</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/wrx/wrx6.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx3.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx7.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx1.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx5.jpg)">
+			</div>
+		</div>
+
+
+		<h1 class="grc" id="grc">Global Rallycross Ottawa Round 5 &amp; 6</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/GRC/grc3.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc13.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc7.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc17.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc12.jpg)">
+			</div>
+		</div>
+
+
+		<h1 class="film" id="film">Film</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/film/film3.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film1.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film6.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film4.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film5.jpg)">
+			</div>
+		</div>
+
+
+		<h1 class="cnc" id="cnc">Cars and Coffee</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/cnc/cnc8.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc23.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc29.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc11.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc5.jpg)">
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		</script> 
+		<script src="http://code.jquery.com/jquery-latest.js">
+		</script> 
+		<script src="gallery.js">
+		</script> 
+	</div>
+</body>
 </html>

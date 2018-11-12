@@ -1,154 +1,186 @@
 body {
-  font-family: 'Roboto Mono', monospace;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-bottom: 2.5%;
+	font-family: 'Roboto Mono', monospace;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 2.5%;
 }
+
 .header h1 {
-  display: inline-block;
-  color: #424242;
+	display: inline-block;
+	color: #424242;
 }
+
 .header h1 span {
-  color: #26619C;
+	color: #26619C;
 }
+
 .menu-bar {
-  width: 100%;
+	width: 100%;
 }
+
 .first a {
-  float: left;
-  display: inline-block;
-  color: #262626;
-  text-align: center;
-  font-size: 16px;
-  padding: 12px 16px;
-  text-decoration: none;
+	float: left;
+	display: inline-block;
+	color: #262626;
+	text-align: center;
+	font-size: 16px;
+	padding: 12px 16px;
+	text-decoration: none;
 }
+
 .first a:hover {
-  background-color: #FF9800;
-  color: white;
+	background-color: #FF9800;
+	color: white;
 }
+
 .menu-bar a {
-  text-decoration: none;
+	text-decoration: none;
 }
+
 .dropdown-content a.wrx-nav:hover {
-  background-color: #26619C;
-  color: white;
+	background-color: #26619C;
+	color: white;
 }
 
 .dropdown-content a.grc-nav:hover {
-  background-color: #448AFF;
-  color: white;
+	background-color: #448AFF;
+	color: white;
 }
+
 .dropdown-content a.film-nav:hover {
-  background-color: #4CAF50;
-  color: white;
+	background-color: #4CAF50;
+	color: white;
 }
+
 .dropdown-content a.cnc-nav:hover {
-  background-color: #6D4C41;
-  color: white;
+	background-color: #6D4C41;
+	color: white;
 }
+
 .dropbtn {
-  display: inline-block;
-  color: #262626;
-  padding: 12px 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+	display: inline-block;
+	color: #262626;
+	padding: 12px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
 }
-#toTop img{
-  right: 0;
-  position: fixed;
-  width: 60px;
+
+#toTop img {
+	right: 0;
+	position: fixed;
+	width: 60px;
 }
+
 .dropdown {
-  position: relative;
-  display: inline-block;
+	position: relative;
+	display: inline-block;
 }
+
 .dropdown-content {
-  position: absolute;
-  display: none;
-  left: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+	position: absolute;
+	display: none;
+	left: 0;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
 }
+
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
+
 .dropbtn:hover {
-  background-color: #FF9800;
-  color: white;
+	background-color: #FF9800;
+	color: white;
 }
+
 .dropdown-content a:hover {
-  background-color: #26619C;
+	background-color: #26619C;
 }
+
 .dropdown:hover .dropdown-content {
-  display: block;
+	display: block;
 }
+
 div.resume {
-  padding-top: 3em;
+	padding-top: 3em;
 }
+
 button.accordion {
-    font-family: 'Roboto Mono', monospace;
-    background-color: #448AFF;
-    opacity: .9;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+	font-family: 'Roboto Mono', monospace;
+	background-color: #448AFF;
+	opacity: .9;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
 }
-button.accordion.active, button.accordion:hover {
-    opacity: 0.6;
+
+button.accordion.active,
+button.accordion:hover {
+	opacity: 0.6;
 }
+
 button.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
 }
+
 button.accordion.active:after {
-    content: "\2212";
+	content: "\2212";
 }
+
 div.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
+
 hr.line {
-  border-color: #448AFF;
-  opacity: .6;
+	border-color: #448AFF;
+	opacity: .6;
 }
+
 #acc-exp {
-  background-color: #90A4AE;
-  opacity: 1;
+	background-color: #90A4AE;
+	opacity: 1;
 }
+
 #acc-exp:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
+
 #line-2 {
-  border-color: #90A4AE;
+	border-color: #90A4AE;
 }
+
 #acc-vol {
-  background-color: #FF9800;
+	background-color: #FF9800;
 }
+
 #line-3 {
-  border-color: #FF9800;
+	border-color: #FF9800;
 }
+
 #acc-ski {
-  background-color: #7E57C2;
+	background-color: #7E57C2;
 }
+
 #line-4 {
-  border-color: #7E57C2;
+	border-color: #7E57C2;
 }

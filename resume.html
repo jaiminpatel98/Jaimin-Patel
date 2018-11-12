@@ -1,169 +1,294 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-  <link rel="stylesheet" href="resume.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
-  <link rel="icon" href="images/title-3.png" type="image/jfif">
-  <script src="jquery-3.2.1.min.js"></script>
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-  <title>Jaimin's Site</title>
+	<link href="resume.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
+	<link href="images/title-3.png" rel="icon" type="image/jfif">
+	<script src="jquery-3.2.1.min.js">
+	</script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js">
+	</script>
+
+	<title>Jaimin's Site</title>
 </head>
+
 <body>
+	<div class="menu-bar">
+		<div class="header">
+			<a href="index.html" id="name">
+			<h1>Jaimin <span>Patel</span></h1></a>
+		</div>
 
-  <div class="menu-bar">
-    <div class="header">
-      <a id="name" href="index.html"><h1>Jaimin <span>Patel</span></h1></a>
-    </div>
-    <div class="nav">
-      <div class="first">
-        <a href="resume.html">Résumé</a>
-      </div>
-      <div class="dropdown">
-        <a class="dropbtn" href="gallery.html">Gallery</a>
-        <div class="dropdown-content">
-          <a href="gallery.html#wrx" class="wrx-nav">2016 WRX</a>
-          <a href="gallery.html#grc" class="grc-nav">GRC 2017</a>
-          <a href="gallery.html#portraits" class="film-nav">Film</a>
-          <a href="gallery.html#cnc" class="cnc-nav">Cars and Coffee</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- <h2 style="text-align: center;">Currently under construction...</h2> -->
-  <div class="resume">
 
-    <div class="education">
-      <button class="accordion">Education</button>
-      <div class="panel">
-        <div class="university">
-          <h4 style="float: left;">Bachelor in Applied Science, Software Engineering</h4>
-          <h4 style="float: right;">September 2016 - May 2020</h4>
-          <ul style="clear: left;">
-            <li>University of Ottawa, Ottawa, Ontario</li>
-            <li>Third-year</li>
-          </ul>
-        </div>
-        <div class="high-school">
-          <h4 style="float: left;">Ontario Secondary School Diploma</h4>
-          <h4 style="float: right;">September 2012 - June 2016</h4>
-          <ul style="clear: left;">
-            <li>Parkdale Collegiate Toronto, Ontario</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="line">
-    </div>
+		<div class="nav">
+			<div class="first">
+				<a href="resume.html">Résumé</a>
+			</div>
 
-    <div class="skills">
-      <button class="accordion" id="acc-ski">Programming</button>
-      <div class="panel">
-        <div class="programming">
-          <h4>HTML and CSS</h4>
-            <ul>
-              <li>Have completed two websites</li>
-              <li>Knowledge up to W3Schools standards</li>
-              <li>Actively looking for ways to improve UX in all stages of development</li>
-            </ul>
-          <h4>Javascript and JQuery</h4>
-            <ul>
-              <li>Created text based adventure game which relied on user inputted commands</li>
-              <li>Created functions to add specific features to a website</li>
-            </ul>
-          <h4>Python</h4>
-            <ul>
-              <li>Completed introductory computing course taught in Python</li>
-            </ul>
-          <h4>Java</h4>
-            <ul>
-              <li>Completed Object Oriented Programming course taught in Java</li>
-              <li>Currently taking a data structures and algorithms course taught in Java</li>
-              <li>Comfortable learning and implementing data structures for program functionality</li>
-            </ul>
-          <h4>Android Studio</h4>
-            <ul>
-              <li>Currently working in a group to build an application to test vision and hearing</li>
-            </ul>
-          <h4>Git</h4>
-            <ul>
-              <li>Used Github and Git Bash to organize files for group and personal projects</li>
-            </ul>
-        </div>
-      </div>
-      <hr class="line" id="line-4">
-    </div>
 
-    <div class="experience">
-      <button class="accordion" id="acc-exp">Work Experience</button>
-      <div class="panel">
-        <div class="coop">
-          <h4 style="float: left;">Web Developer</h4>
-          <h4 style="float: right;">May 2017 - August 2017</h4>
-          <h5 style="clear: right;">University of Ottawa, Faculty of Medicine</h5>
-          <h5>Ottawa, Ontario</h5>
-          <ul>
-            <li>Designed, developed, and tested sites using web content managment system (WCMS) Drupal</li>
-            <li>Migrated client sites to Drupal sites</li>
-            <li>Met with clients to discuss user experience improvements and site redesigns</li>
-          </ul>
-        </div>
-        <div class="ump">
-          <h4 style="float: left;">Umpire</h4>
-          <h4 style="float: right;">May 2013 - August 2016</h4>
-          <h5 style="clear: right;">Baseball Canada</h5>
-          <h5>Toronto, Ontario</h5>
-          <ul>
-            <li>Developed integrity while under scrutiny from coaches</li>
-            <li>Learned to act professionally while addressing players and coaches</li>
-          </ul>
-        </div>
-        <div class="tims">
-          <h4 style="float: left;">Team Member</h4>
-          <h4 style="float: right;">September 2015 - December 2015</h4>
-          <h5 style="clear: left;">Tim Horton's</h5>
-          <h5>Toronto, Ontario</h5>
-          <ul>
-            <li>Demonstrated keen teamwork skills while working as a Tim Horton’s Team Member</li>
-            <li>Developed fast and efficient work habits while working during consistently busy mornings</li>
-            <li>Learned to accommodate customers while taking their order or receiving a complaint</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="line" id="line-2">
-    </div>
+			<div class="dropdown">
+				<a class="dropbtn" href="gallery.html">Gallery</a>
 
-    <div class="volunteer">
-      <button class="accordion" id="acc-vol">Volunteer Experience</button>
-      <div class="panel">
-        <div class="coach">
-          <h4>Assistant Baseball Coach</h4>
-          <h5>Annette Baseball Association</h5>
-          <h5>Toronto, Ontario</h5>
-          <ul>
-            <li>Organized and ran baseball drills for children ages 10 to 12</li>
-            <li>Committed to every practice and game</li>
-            <li>Taught baseball concepts and techniques</li>
-          </ul>
-        </div>
-        <div class="leader">
-          <h4>Senior Leader</h4>
-          <h5>Parkdale Collegiate Institute</h5>
-          <ul>
-            <li>Planned engaging activities for grade 9s</li>
-            <li>Created a comfortable environment for newly acquainted teenagers</li>
-            <li>Included all the students in each activity</li>
-          </ul>
-        </div>
-        <div class="baps">
-          <h4>BAPS Charities Walkathon</h4>
-          <ul>
-            <li>Raised money for BAPS Charities and Sick Kids Hospital for nearly 14 consecutive years</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="line" id="line-3">
-    </div>
+				<div class="dropdown-content">
+					<a class="wrx-nav" href="gallery.html#wrx">2016 WRX</a> <a class="grc-nav" href="gallery.html#grc">GRC 2017</a> <a class="film-nav" href="gallery.html#portraits">Film</a> <a class="cnc-nav" href="gallery.html#cnc">Cars and Coffee</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <h2 style="text-align: center;">Currently under construction...</h2> -->
 
-  </div>
-  <script src="resume.js"></script>
+
+	<div class="resume">
+		<div class="education">
+			<button class="accordion">Education</button>
+
+			<div class="panel">
+				<div class="university">
+					<h4 style="float: left;">Bachelor in Applied Science, Software Engineering</h4>
+
+
+					<h4 style="float: right;">September 2016 - May 2020</h4>
+
+
+					<ul style="clear: left;">
+						<li>University of Ottawa, Ottawa, Ontario</li>
+
+
+						<li>Third-year</li>
+					</ul>
+				</div>
+
+
+				<div class="high-school">
+					<h4 style="float: left;">Ontario Secondary School Diploma</h4>
+
+
+					<h4 style="float: right;">September 2012 - June 2016</h4>
+
+
+					<ul style="clear: left;">
+						<li>Parkdale Collegiate Toronto, Ontario</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="line">
+		</div>
+
+
+		<div class="skills">
+			<button class="accordion" id="acc-ski">Programming</button>
+
+			<div class="panel">
+				<div class="programming">
+					<h4>HTML and CSS</h4>
+
+
+					<ul>
+						<li>Have completed two websites</li>
+
+
+						<li>Knowledge up to W3Schools standards</li>
+
+
+						<li>Actively looking for ways to improve UX in all stages of development</li>
+					</ul>
+
+
+					<h4>Javascript and JQuery</h4>
+
+
+					<ul>
+						<li>Created text based adventure game which relied on user inputted commands</li>
+
+
+						<li>Created functions to add specific features to a website</li>
+					</ul>
+
+
+					<h4>Python</h4>
+
+
+					<ul>
+						<li>Completed introductory computing course taught in Python</li>
+					</ul>
+
+
+					<h4>Java</h4>
+
+
+					<ul>
+						<li>Completed Object Oriented Programming course taught in Java</li>
+
+
+						<li>Currently taking a data structures and algorithms course taught in Java</li>
+
+
+						<li>Comfortable learning and implementing data structures for program functionality</li>
+					</ul>
+
+
+					<h4>Android Studio</h4>
+
+
+					<ul>
+						<li>Currently working in a group to build an application to test vision and hearing</li>
+					</ul>
+
+
+					<h4>Git</h4>
+
+
+					<ul>
+						<li>Used Github and Git Bash to organize files for group and personal projects</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="line" id="line-4">
+		</div>
+
+
+		<div class="experience">
+			<button class="accordion" id="acc-exp">Work Experience</button>
+
+			<div class="panel">
+				<div class="coop">
+					<h4 style="float: left;">Web Developer</h4>
+
+
+					<h4 style="float: right;">May 2017 - August 2017</h4>
+
+
+					<h5 style="clear: right;">University of Ottawa, Faculty of Medicine</h5>
+
+
+					<h5>Ottawa, Ontario</h5>
+
+
+					<ul>
+						<li>Designed, developed, and tested sites using web content managment system (WCMS) Drupal</li>
+
+
+						<li>Migrated client sites to Drupal sites</li>
+
+
+						<li>Met with clients to discuss user experience improvements and site redesigns</li>
+					</ul>
+				</div>
+
+
+				<div class="ump">
+					<h4 style="float: left;">Umpire</h4>
+
+
+					<h4 style="float: right;">May 2013 - August 2016</h4>
+
+
+					<h5 style="clear: right;">Baseball Canada</h5>
+
+
+					<h5>Toronto, Ontario</h5>
+
+
+					<ul>
+						<li>Developed integrity while under scrutiny from coaches</li>
+
+
+						<li>Learned to act professionally while addressing players and coaches</li>
+					</ul>
+				</div>
+
+
+				<div class="tims">
+					<h4 style="float: left;">Team Member</h4>
+
+
+					<h4 style="float: right;">September 2015 - December 2015</h4>
+
+
+					<h5 style="clear: left;">Tim Horton's</h5>
+
+
+					<h5>Toronto, Ontario</h5>
+
+
+					<ul>
+						<li>Demonstrated keen teamwork skills while working as a Tim Horton’s Team Member</li>
+
+
+						<li>Developed fast and efficient work habits while working during consistently busy mornings</li>
+
+
+						<li>Learned to accommodate customers while taking their order or receiving a complaint</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="line" id="line-2">
+		</div>
+
+
+		<div class="volunteer">
+			<button class="accordion" id="acc-vol">Volunteer Experience</button>
+
+			<div class="panel">
+				<div class="coach">
+					<h4>Assistant Baseball Coach</h4>
+
+
+					<h5>Annette Baseball Association</h5>
+
+
+					<h5>Toronto, Ontario</h5>
+
+
+					<ul>
+						<li>Organized and ran baseball drills for children ages 10 to 12</li>
+
+
+						<li>Committed to every practice and game</li>
+
+
+						<li>Taught baseball concepts and techniques</li>
+					</ul>
+				</div>
+
+
+				<div class="leader">
+					<h4>Senior Leader</h4>
+
+
+					<h5>Parkdale Collegiate Institute</h5>
+
+
+					<ul>
+						<li>Planned engaging activities for grade 9s</li>
+
+
+						<li>Created a comfortable environment for newly acquainted teenagers</li>
+
+
+						<li>Included all the students in each activity</li>
+					</ul>
+				</div>
+
+
+				<div class="baps">
+					<h4>BAPS Charities Walkathon</h4>
+
+
+					<ul>
+						<li>Raised money for BAPS Charities and Sick Kids Hospital for nearly 14 consecutive years</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="line" id="line-3">
+		</div>
+	</div>
+	<script src="resume.js">
+	</script>
 </body>
 </html>
