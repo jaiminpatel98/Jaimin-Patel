@@ -49,15 +49,12 @@ body {
   background-color: #26619C;
   color: white;
 }
-.dropdown-content a.ottawa-nav:hover {
-  background-color: #F44336;
-  color: white;
-}
+
 .dropdown-content a.grc-nav:hover {
   background-color: #448AFF;
   color: white;
 }
-.dropdown-content a.portraits-nav:hover {
+.dropdown-content a.film-nav:hover {
   background-color: #4CAF50;
   color: white;
 }
