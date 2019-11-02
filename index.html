@@ -5,35 +5,442 @@
 	<link href="main.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
 	<link href="images/title-3.png" rel="icon" type="image/jfif">
+	<script src="jquery-3.2.1.min.js">
+	</script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js">
+	</script>
 
 	<title>Jaimin's Site</title>
 </head>
 
-<body>
+<body id="top">
 	<div class="menu-bar">
 		<div class="header">
-			<a href="index.html" id="name">
-			<h1>Jaimin <span>Patel</span></h1></a>
+			<h1>Jaimin <span>Patel</span></h1>
+		</div>
+		<div class="contact">
+			<a class="icon1" href="https://www.linkedin.com/in/jaimin-patel-b46bb85a"><img src="images/linkedin.png" style="width: 3.5%"></a>
+			<a class="icon2" href="https://github.com/jaiminpatel98"><img src="images/Github.png" style="width: 3.5%"></a>
+			<div style="float: right">
+				<p><span style="font-weight: bold; color: #26619C;">Email:</span> jaiminpatel@gmail.com</p>
+				<p><span style="font-weight: bold; color: #26619C;">Based In:</span> Toronto, ON and Ottawa, ON</p>
+				<p><span style="font-weight: bold; color: #26619C;">Currently:</span> Looking for summer 2020 placement</p>
+			</div>
 		</div>
 
 
-		<div class="nav">
-			<div class="first">
-				<a href="resume.html">Résumé</a>
-			</div>
+		
+	</div>
+	<!-- <h2 style="text-align: center;">Currently under construction...</h2> -->
+	<div class="dropdown-nav">
+		<button class="dropbtn-nav" id="menu" onclick="myFunction(this); myFunction2();">
+		<div class="bar1">
+		</div>
 
 
-			<div class="dropdown">
-				<a class="dropbtn" href="gallery.html">Gallery</a>
+		<div class="bar2">
+		</div>
 
-				<div class="dropdown-content">
-					<a class="wrx-nav" href="gallery.html#wrx">2016 WRX</a> 
-					<a class="grc-nav" href="gallery.html#grc">GRC 2017</a> 
-					<a class="film-nav" href="gallery.html#portraits">Film</a> 
-					<a class="cnc-nav" href="gallery.html#cnc">Cars and Coffee</a>
+
+		<div class="bar3">
+		</div>
+
+
+		<div class="dropdown-content-nav" id="myDropdown">
+			<a class="wrx-nav" href="#wrx">2016 WRX</a> <a class="grc-nav" href="#grc">GRC 2017</a> <a class="film-nav" href="#film">Film</a> <a class="cnc-nav" href="#cnc">Cars and Coffee</a>
+		</div></button>
+	</div>
+
+	<div class="resume">
+		<div class="education">
+			<button class="accordion">Education</button>
+
+			<div class="panel">
+				<div class="university">
+					<h4 style="float: left;">Bachelor in Applied Science, Software Engineering</h4>
+
+
+					<h4 style="float: right;">September 2016 - May 2020</h4>
+
+
+					<ul style="clear: left;">
+						<li>University of Ottawa, Ottawa, Ontario</li>
+
+
+						<li>4th year</li>
+					</ul>
+				</div>
+
+
+				<div class="high-school">
+					<h4 style="float: left;">Ontario Secondary School Diploma</h4>
+
+
+					<h4 style="float: right;">September 2012 - June 2016</h4>
+
+
+					<ul style="clear: left;">
+						<li>Parkdale Collegiate Toronto, Ontario</li>
+					</ul>
 				</div>
 			</div>
+
+			<hr class="line">
+		</div>
+
+		<div class="experience">
+			<button class="accordion" id="acc-exp">Work Experience</button>
+
+			<div class="panel">
+				<div class="coop3">
+					
+					<h4 style="float: left;">Software Quality Assurance Analyst</h4>
+
+
+					<h4 style="float: right;">September 2018 - December 2018</h4>
+
+
+					<h5 style="clear: right;">Global Affairs Canada</h5>
+
+
+					<h5>Ottawa, Ontario</h5>
+
+
+					<ul>
+						<li>Developed quality assurance skills from the creation, editing, and running of test cases for governmental standard software</li>
+
+
+						<li>Learned change management procedures while working with changes in software and business requirements between iterations</li>
+
+
+						<li>Expanded skills and expertise with Microsoft Team Foundation Server, Microsoft Access, and Blueprint</li>
+					</ul>
+				</div>
+
+
+				<div class="coop2">
+					
+					<h4 style="float: left;">Web Designer</h4>
+
+
+					<h4 style="float: right;">January 2018 - April 2018</h4>
+
+
+					<h5 style="clear: right;">Agriculture and Agri-Food Canada</h5>
+
+
+					<h5>Ottawa, Ontario</h5>
+
+
+					<ul>
+						<li>Managed the front-end intranet service for the entire Finance and Resource Management Division</li>
+
+
+						<li>Organized and conducted meetings with team directors to gather their site requirements and use cases</li>
+
+
+						<li>Participated and provided valuable insight in AAFC wide meetings regarding the on-going integration of intranet service, Microsoft SharePoint</li>
+					</ul>
+				</div>
+
+
+				<div class="coop">
+
+					<h4 style="float: left;">Web Developer</h4>
+
+
+					<h4 style="float: right;">May 2017 - August 2017</h4>
+
+
+					<h5 style="clear: right;">University of Ottawa, Faculty of Medicine</h5>
+
+
+					<h5>Ottawa, Ontario</h5>
+
+
+					<ul>
+						<li>Designed, developed, and tested sites using web content managment system (WCMS) Drupal</li>
+
+
+						<li>Migrated client sites to Drupal sites</li>
+
+
+						<li>Met with clients to discuss user experience improvements and site redesigns</li>
+					</ul>
+				</div>
+
+
+				<div class="ump">
+					<h4 style="float: left;">Umpire</h4>
+
+
+					<h4 style="float: right;">May 2013 - August 2016</h4>
+
+
+					<h5 style="clear: right;">Baseball Canada</h5>
+
+
+					<h5>Toronto, Ontario</h5>
+
+
+					<ul>
+						<li>Developed integrity while under scrutiny from coaches</li>
+
+
+						<li>Learned to act professionally while addressing players and coaches</li>
+					</ul>
+				</div>
+
+
+				<div class="tims">
+					<h4 style="float: left;">Team Member</h4>
+
+
+					<h4 style="float: right;">September 2015 - December 2015</h4>
+
+
+					<h5 style="clear: left;">Tim Horton's</h5>
+
+
+					<h5>Toronto, Ontario</h5>
+
+
+					<ul>
+						<li>Demonstrated keen teamwork skills while working as a Tim Horton’s Team Member</li>
+
+
+						<li>Developed fast and efficient work habits while working during consistently busy mornings</li>
+
+
+						<li>Learned to accommodate customers while taking their order or receiving a complaint</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="line" id="line-2">
+		</div>
+
+		<div class="skills">
+			<button class="accordion" id="acc-ski">Programming</button>
+
+			<div class="panel">
+				<div class="programming">
+					<h4>Python</h4>
+
+
+					<ul>
+						<li>Completed TensorFlow nueral style transfer implementation</li>
+						<li>Familiar with NumPy, Pandas, SciKit-Learn, TensorFlow, Keras</li>
+					</ul>
+
+					<h4>Java</h4>
+
+
+					<ul>
+						<li>Proficient</li>
+					</ul>
+
+
+					<h4>C++</h4>
+
+
+					<ul>
+						<li>Knowledgable using advanced C++ concepts</li>
+					</ul>
+
+
+					<h4>Git</h4>
+
+
+					<ul>
+						<li>Used Github and Git Bash to organize files for group and personal projects</li>
+					</ul>
+
+					<h4>Web Development</h4>
+
+
+					<ul>
+						<li>Experience building websites using HTML, CSS, JavaScript, JQuery, Ruby on Rails, ReactJS, Firebase, PostgreSQL, JavaEE</li>
+					</ul>				
+				</div>
+			</div>
+
+			<hr class="line" id="line-4">
+		</div>
+
+
+		
+
+
+		<div class="volunteer">
+			<button class="accordion" id="acc-vol">Volunteer Experience</button>
+
+			<div class="panel">
+				<div class="coach">
+					<h4>Assistant Baseball Coach</h4>
+
+
+					<h5>Annette Baseball Association</h5>
+
+
+					<h5>Toronto, Ontario</h5>
+
+
+					<ul>
+						<li>Organized and ran baseball drills for children ages 10 to 12</li>
+
+
+						<li>Committed to every practice and game</li>
+
+
+						<li>Taught baseball concepts and techniques</li>
+					</ul>
+				</div>
+
+
+				<div class="leader">
+					<h4>Senior Leader</h4>
+
+
+					<h5>Parkdale Collegiate Institute</h5>
+
+
+					<ul>
+						<li>Planned engaging activities for grade 9s</li>
+
+
+						<li>Created a comfortable environment for newly acquainted teenagers</li>
+
+
+						<li>Included all the students in each activity</li>
+					</ul>
+				</div>
+
+
+				<div class="baps">
+					<h4>BAPS Charities Walkathon</h4>
+
+
+					<ul>
+						<li>Raised money for BAPS Charities and Sick Kids Hospital for nearly 14 consecutive years</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="line" id="line-3">
 		</div>
 	</div>
+	
+
+	<div class="body">
+	
+		<a class="toTop" href="#top"><img src="images/up.png"></a>
+
+		<h1 class="wrx" id="wrx">2016 WRX</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/wrx/wrx6.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx3.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx7.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx1.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/wrx/wrx5.jpg)">
+			</div>
+		</div>
+
+
+		<h1 class="grc" id="grc">Global Rallycross Ottawa Round 5 &amp; 6</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/GRC/grc3.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc13.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc7.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc17.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/GRC/grc12.jpg)">
+			</div>
+		</div>
+
+
+		<h1 class="film" id="film">Film</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/film/film3.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film1.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film6.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film4.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/film/film5.jpg)">
+			</div>
+		</div>
+
+
+		<h1 class="cnc" id="cnc">Cars and Coffee</h1>
+
+
+		<div class="grid">
+			<div class="item" style="background-image: url(images/cnc/cnc8.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc23.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc29.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc11.jpg)">
+			</div>
+
+
+			<div class="item" style="background-image: url(images/cnc/cnc5.jpg)">
+			</div>
+		</div>
+		
+	</div>
+	<script src="main.js">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script> 
+	<script src="http://code.jquery.com/jquery-latest.js">
+	</script> 
 </body>
 </html>
