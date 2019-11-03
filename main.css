@@ -167,7 +167,7 @@ hr.line {
 }
 
 #acc-exp {
-	background-color: #90A4AE;
+	background-color: #FF9800;
 	opacity: 1;
 }
 
@@ -176,15 +176,15 @@ hr.line {
 }
 
 #line-2 {
-	border-color: #90A4AE;
+	border-color: #FF9800;
 }
 
 #acc-vol {
-	background-color: #FF9800;
+	background-color: #90A4AE;
 }
 
 #line-3 {
-	border-color: #FF9800;
+	border-color: #90A4AE;
 }
 
 #acc-ski {
