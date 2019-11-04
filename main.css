@@ -115,7 +115,7 @@ body {
 	display: block;
 }
 
-div.resume {
+.resume {
 	padding-top: 6em;
 	margin-right: 7.5%;
 	margin-left: 7.5%;
@@ -249,8 +249,13 @@ hr.line {
 	color: white;
 }
 
+.dropdown-content-nav a.nz-nav:hover {
+	background-color: #7E57C2;
+	color: white;
+}
+
 .dropdown-content-nav a.cnc-nav:hover {
-	background-color: #6D4C41;
+	background-color: #FF9800;
 	color: white;
 }
 
@@ -313,7 +318,7 @@ hr.line {
 }
 
 .dropdown-content a.cnc-nav:hover {
-	background-color: #6D4C41;
+	background-color: #FF9800;
 	color: white;
 }
 
@@ -410,7 +415,14 @@ hr.line {
 .cnc {
 	clear: left;
 	text-align: center;
-	color: #6D4C41;
+	color: #FF9800;
+	padding-top: 2%;
+}
+
+.nz {
+	clear: left;
+	text-align: center;
+	color: #7E57C2;
 	padding-top: 2%;
 }
 
@@ -442,14 +454,15 @@ hr.line {
 
 .item:nth-child(5) {
 	grid-column: 1 / 3;
-	grid-row: 4 / 5;
+	grid-row: 4 / 4;
 }
 
 /* styling code */
 
 .grid {
 	margin: 20px auto;
-	max-width: 1000px;
+	max-width: 75%;
+	max-height: 100%;
 }
 
 .grid>.item {
